@@ -1,0 +1,161 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #3A00E0;
+    margin: 0 0 50px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #FF0030;
+    margin: 0;
+}
+
+h2 {
+    color: #3A00E0;
+    margin: 0 0 50px 0;
+}
+
+h5 {
+    color: #FF0030;
+    margin: -50px 0 50px 0;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+nav a:hover {
+    color: #ff002f;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+.text-input {
+    width: 100%;
+    height: 300px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    height: 480px;
+    width: 300px;
+    background-color: white;
+    border-radius: 32px;
+    padding: 1rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+    transform: translateY(0);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 10px 5px #777;
+}
+
+.card__img {
+    background-color: red;
+    width: 100%;
+    /* height: 100%; */
+    margin-bottom: 1rem;
+}
+
+.card__name {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.card__buy {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: rgb(33, 174, 115);
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.card__buy:hover {
+    background-color: rgb(53, 204, 65);
+} 
+
+.projeto-title__h1 {
+    color: #FF0030;
+    display: flex;
+    justify-content: center;
+}
+
+.projeto-title__h2 {
+    color: #3A00E0;
+    display: flex;
+    justify-content: center;
+}
