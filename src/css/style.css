@@ -1,7 +1,25 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
 body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragrafos {
+    margin: 8px 0;
+}
+
+.paragrafo-curso {
+    margin: 8px 0;
+    color: #01c6dc;
+}
+
+section {
+    margin: 50px 0;
 }
 
 .container {
@@ -25,7 +43,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #3A00E0;
+    border: 5px solid #01c6dc;
     margin: 0 0 50px 0;
 }
 
@@ -39,13 +57,23 @@ h1 {
 }
 
 h2 {
-    color: #3A00E0;
+    color: #01c6dc;
     margin: 0 0 50px 0;
+}
+
+h3 {
+    color: #FF0030;
+    margin: 0;
+    padding: 0;
 }
 
 h5 {
     color: #FF0030;
     margin: -50px 0 50px 0;
+}
+
+li {
+    list-style: none;
 }
 
 footer img {
@@ -68,7 +96,7 @@ footer p {
 }
 
 nav a:hover {
-    color: #ff002f;
+    color: #FF0030;
 }
 
 .contact-form input {
@@ -112,14 +140,13 @@ button {
 }
 
 .card:hover {
+    scale: 1.07;
     transform: translateY(-10px);
     box-shadow: 0px 5px 10px 5px #777;
 }
 
 .card__img {
-    background-color: red;
     width: 100%;
-    /* height: 100%; */
     margin-bottom: 1rem;
 }
 
@@ -136,7 +163,7 @@ button {
     justify-content: center;
     box-sizing: border-box;
     padding: 1rem;
-    background-color: rgb(33, 174, 115);
+    background-color: #FF0030;
     color: white;
     text-decoration: none;
     letter-spacing: 0.5px;
@@ -145,7 +172,7 @@ button {
 }
 
 .card__buy:hover {
-    background-color: rgb(53, 204, 65);
+    background-color: #01c6dc;
 } 
 
 .projeto-title__h1 {
@@ -155,7 +182,7 @@ button {
 }
 
 .projeto-title__h2 {
-    color: #3A00E0;
+    color: #01c6dc;
     display: flex;
     justify-content: center;
 }

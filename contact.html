@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
@@ -14,39 +15,61 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Sobre mim</a>
+                    <a href="./index.html">SOBRE MIM</a>
                 </li>
 
                 <li>
-                    <a href="projects.html">Projetos</a>
+                    <a href="./projects.html">PROJETOS</a>
                 </li>
-    
+
                 <li>
-                    <a href="contact.html">Contato</a>
+                    <a href="./contact.html">CONTATO</a>
                 </li>
             </ul>
         </nav>
-    
-        <header class="center">
-    
-            <div>
-                <img src="./img/Image.png">
+
+        <header>
+
+            <div class="center">
+                <img src="./src/img/Image.png">
             </div>
             <h1>Leonardo Victor</h1>
-            <h2>Desenvolverdor de Softwares</h2>
+            <h2>Entre em contato comigo.</h2>
+            <h5>Responderei assim que possível!</h5>
 
         </header>
-        
+
         <form class="contact-form" action="https://formsubmit.co/87acd590e2f6123f58ea58cd931e0d17" method="POST">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" required>
 
             <label for="message">Mensagem</label>
-            <input type="text" name="message" id="message" required>
+            <textarea class="text-input" name="message" id="message" value="" cols="40" rows="5"></textarea>
 
             <button type="submit">Enviar</button>
         </form>
+
+        <footer>
+
+            <a href="https://github.com/FeijaoStudios" target="_blank" rel="noopener noreferrer">
+                <img src="./src/img/github.svg">
+                <p>Github</p>
+            </a>
+
+            <a href="wip.html" target="_blank" rel="noopener noreferrer">
+                <img src="./src/img/linkedin.svg">
+                <p>Linkedin</p>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCyohblxvG_3tIIcGSu-52aA" target="_blank"
+                rel="noopener noreferrer">
+                <img src="./src/img/youtube.svg">
+                <p>Youtube</p>
+            </a>
+
+        </footer>
     </div>
 
 </body>
+
 </html>
